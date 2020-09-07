@@ -7,7 +7,7 @@ The simplest tool to translate texts in React
 (namespace to be defined)
 
 ```bash
-npm i react-i18n
+npm i @not-only-code/react-i18n
 ```
 
 ## Usage
