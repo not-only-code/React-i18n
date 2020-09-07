@@ -14,7 +14,7 @@ npm i react-i18n
 
 Create a definitions JSON file per translation.
 
-```json
+```JSON
 // translations/en-GB.json
 {
   "appHeading": "My App Heading"
