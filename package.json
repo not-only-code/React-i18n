@@ -1,0 +1,30 @@
+{
+  "name": "react-i18n",
+  "version": "0.1.0",
+  "description": "The simplest tool to translate texts in React",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/not-only-code/react-i18n.git"
+  },
+  "author": {
+    "name": "Carlos Sanz Garcia",
+    "email": "studiocam6@yahoo.es"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/not-only-code/react-i18n/issues"
+  },
+  "homepage": "https://github.com/not-only-code/react-i18n#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
