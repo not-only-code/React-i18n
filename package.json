@@ -1,10 +1,10 @@
 {
-  "name": "reacti18n",
+  "name": "@not-only-code/react-i18n",
   "version": "0.1.1",
   "description": "The simplest tool to translate texts in React",
   "main": "src/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/not-only-code"
+    "registry": "https://registry.npmjs.com/"
   },
   "scripts": {
     "test": "jest"
