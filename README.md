@@ -4,10 +4,8 @@ The simplest tool to translate texts in React
 
 ## installation
 
-(namespace to be defined)
-
 ```bash
-npm i reacti18n
+npm i @not-only-code/react-i18n
 ```
 
 ## Usage
@@ -29,7 +27,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import messages from './translations/en-GB.json';
-import { Reacti18nProvider } from 'reacti18n';
+import { Reacti18nProvider } from '@not-only-code/react-i18n';
 
 ReactDOM.render(
   <Reacti18nProvider locale='en-GB' messages={messages}>
@@ -46,7 +44,7 @@ Use `Reacti18nContext` to get `t` method and translate your definitions:
 ```jsx
 // App.js
 import React, { useContext } from 'react';
-import { Reacti18nContext } from 'reacti18n';
+import { Reacti18nContext } from '@not-only-code/react-i18n';
 
 function App() {
   const { t } = useContext(Reacti18nContext);
@@ -65,7 +63,7 @@ export default App;
 ```jsx
 // App.js
 import React from 'react';
-import { Reacti18nContext } from 'reacti18n';
+import { Reacti18nContext } from '@not-only-code/react-i18n';
 
 function App() {
   return (
